@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Tree Themed</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: url('img1.jpeg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .signup-container {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            border: 2px solid blue;
+            text-align: center;
+            
+        }
+
+        .signup-container h2 {
+            color: #2c5e1a;
+            margin-bottom: 20px;
+        }
+
+        .signup-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #2c5e1a;
+            border-radius: 5px;
+        }
+
+        .signup-container button {
+            width: 100%;
+            padding: 10px;
+            background: #2c5e1a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .signup-container button:hover {
+            background: #1e4013;
+        }
+
+        .tree-icon {
+            font-size: 40px;
+            color: #2c5e1a;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-home">Back To Home</div>
+    <div>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    </div>
+
+
+</body>
+</html>
